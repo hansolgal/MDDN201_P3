@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title  -->
+    <title>Movie Day | Home</title>
+
+    <!-- Favicon  -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="south-load"></div>
+    </div>
+
+    <!-- ##### Header Area Start ##### -->
+    <header class="header-area">
+
+        <!-- Main Header Area -->
+        <div class="main-header-area" id="stickyHeader">
+            <div class="classy-nav-container breakpoint-off">
+                <!-- Classy Menu -->
+                <nav class="classy-navbar justify-content-between" id="southNav">
+
+                    <!-- Logo -->
+                    <a class="nav-brand" href="index.html"><img src="img/core-img/logo.png" alt=""></a>
+
+                    <!-- Navbar Toggler -->
+                    <div class="classy-navbar-toggler">
+                        <span class="navbarToggler"><span></span><span></span><span></span></span>
+                    </div>
+
+                    <!-- Menu -->
+                    <div class="classy-menu">
+
+                        <!-- close btn -->
+                        <div class="classycloseIcon">
+                            <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                        </div>
+
+                        <!-- Nav Start -->
+                        <div class="classynav">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about-us.html">About Us</a></li>
+                                <li><a href="listings.html">NEW ON NETFLIX</a></li>
+                                <li><a href="blog.html">Recommendations</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+
+                            <!-- Search Form -->
+                            <div class="south-search-form">
+                                <form action="#" method="post">
+                                    <input type="search" name="search" id="search" placeholder="Search Anything ...">
+                                    <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                                </form>
+                            </div>
+
+                            <!-- Search Button -->
+                            <a href="#" class="searchbtn"><i class="fa" aria-hidden="true"></i></a>
+                        </div>
+                        <!-- Nav End -->
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- ##### Header Area End ##### -->
+
+    <!-- ##### Hero Area Start ##### -->
+    <section class="hero-area">
+        <div class="hero-slides owl-carousel">
+            <!-- Single Hero Slide -->
+            <div class="single-hero-slide bg-img" style="background-image: url(img/bg-img/hero1.jpg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12">
+                            <div class="hero-slides-content">
+                                <h2 data-animation="fadeInUp" data-delay="100ms">MOVIE DAY!</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Hero Slide -->
+            <div class="single-hero-slide bg-img" style="background-image: url(img/bg-img/hero2.jpg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12">
+                            <div class="hero-slides-content">
+                                <h2 data-animation="fadeInUp" data-delay="100ms">MOVIE DAY!</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Hero Slide -->
+            <div class="single-hero-slide bg-img" style="background-image: url(img/bg-img/hero3.jpg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12">
+                            <div class="hero-slides-content">
+                                <h2 data-animation="fadeInUp" data-delay="100ms">MOVIE DAY!</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Hero Area End ##### -->
+
+    <!-- ##### Advance Search Area Start ##### -->
+    <div class="south-search-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="advanced-search-form">
+
+                        <!-- Search Form -->
+                        <form action="#" method="post" id="advanceSearch">
+                            <div class="row">
+
+                                <div class="col-12 col-md-4 col-lg-3">
+                                    <div class="form-group">
+                                        <input type="input" class="form-control" name="input" placeholder="Keyword">
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-4 col-lg-3">
+                                    <div class="form-group">
+                                        <select class="form-control" id="cities">
+                                            <option>All Genres</option>
+                                            <option>Action</option>
+                                            <option>Comedy</option>
+                                            <option>Drama</option>
+                                            <option>Horror</option>
+                                            <option>Romance</option>
+                                            <option>Thriller</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-4 col-lg-3">
+                                    <div class="form-group">
+                                        <select class="form-control" id="catagories">
+                                            <option>All Catagories</option>
+                                            <option>classical</option>
+                                            <option>modern</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-4 col-lg-3">
+                                    <div class="form-group">
+                                        <select class="form-control" id="offers">
+                                            <option>All Countries</option>
+                                            <option>American</option>
+                                            <option>Chinese</option>
+                                            <option>French</option>
+                                            <option>Indian</option>
+                                            <option>Others</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-4 col-xl-3">
+                                    <div class="form-group">
+                                        <select class="form-control" id="listings">
+                                            <option>All Ages</option>
+                                            <option>12~</option>
+                                            <option>15~</option>
+                                            <option>19~</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-4 col-xl-3">
+                                    <div class="form-group">
+                                        <select class="form-control" id="bedrooms">
+                                            <option>All Websites</option>
+                                            <option>Netflix</option>
+                                            <option>Hulu</option>
+                                            <option>Prime</option>
+                                            <option>HBO NOW</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-8 col-lg-12 col-xl-5 d-flex">
+
+                                   
+                                   
+                                    <!-- Submit -->
+                                    <div class="form-group mb-0">
+                                        <button type="submit" class="btn south-btn">Search</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### Advance Search Area End ##### -->
+    
+    
+
+    <!-- ##### Featured Properties Area Start ##### -->
+    <section class="featured-properties-area section-padding-100-50">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading wow fadeInUp">
+                        <h2>Trending Movies</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <!-- Single Featured Property -->
+                <div class="col-12 col-md-6 col-xl-4">
+                    <div class="single-featured-property mb-50 wow fadeInUp" data-wow-delay="100ms">
+                        <!-- Property Thumbnail -->
+                        <div class="property-thumb">
+                            <img src="img/bg-img/01-small.jpg" alt="">
+
+                            <div class="tag">
+                            </div>
+                            <div class="list-price">
+                            </div>
+                        </div>
+                        <!-- Property Content -->
+                        <div class="property-content">
+                            <h5>Sierra Burgess Is a Loser</h5>
+                            <p class="location"><img src="img/icons/location.png" alt="">2018 • Comedy, Drama, Romance</p>
+                            <p>A case of mistaken identity results in unexpected romance when the most popular girl in high school and the biggest loser must come together to win over their crushes.</p>
+                            <div class="property-meta-data d-flex align-items-end justify-content-between">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Featured Property -->
+                <div class="col-12 col-md-6 col-xl-4">
+                    <div class="single-featured-property mb-50 wow fadeInUp" data-wow-delay="200ms">
+                        <!-- Property Thumbnail -->
+                        <div class="property-thumb">
+                            <img src="img/bg-img/02-small.jpg" alt="">
+
+                            <div class="tag">
+
+                            </div>
+                            <div class="list-price">
+                            </div>
+                        </div>
+                        <!-- Property Content -->
+                        <div class="property-content">
+                            <h5>The Nun</h5>
+                            <p class="location"><img src="img/icons/location.png" alt="">2018 • Horror, Mystery, Thriller</p>
+                            <p>When a young nun at a cloistered abbey in Romania takes her own life, a priest with a haunted past and a novitiate on the threshold of her final vows are sent by the Vatican to investigate. Together, they uncover the order's unholy secret. Risking not only their lives but their faith and their very souls, they confront a malevolent force in the form of a demonic nun.</p>
+                            <div class="property-meta-data d-flex align-items-end justify-content-between">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Featured Property -->
+                <div class="col-12 col-md-6 col-xl-4">
+                    <div class="single-featured-property mb-50 wow fadeInUp" data-wow-delay="300ms">
+                        <!-- Property Thumbnail -->
+                        <div class="property-thumb">
+                            <img src="img/bg-img/03-small.jpg" alt="">
+                            <div class="tag">
+                            </div>
+                            <div class="list-price">
+                            </div>
+                        </div>
+                        <!-- Property Content -->
+                        <div class="property-content">
+                            <h5>To All the Boys I've Loved Before</h5>
+                            <p class="location"><img src="img/icons/location.png" alt="">2018 • Comedy, Romance</p>
+                            <p>Lara Jean's love life goes from imaginary to out of control when her secret letters to every boy she's ever fallen for are mysteriously mailed out.</p>
+                            <div class="property-meta-data d-flex align-items-end justify-content-between">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Featured Property -->
+                <div class="col-12 col-md-6 col-xl-4">
+                    <div class="single-featured-property mb-50 wow fadeInUp" data-wow-delay="400ms">
+                        <!-- Property Thumbnail -->
+                        <div class="property-thumb">
+                            <img src="img/bg-img/04-small.jpg" alt="">
+                            <div class="tag">
+                            </div>
+                            <div class="list-price">
+                            </div>
+                        </div>
+                        <!-- Property Content -->
+                        <div class="property-content">
+                            <h5>Crazy Rich Asians</h5>
+                            <p class="location"><img src="img/icons/location.png" alt="">2018 • Comedy</p>
+                            <p>Rachel Chu is happy to accompany her longtime boyfriend, Nick, to his best friend's wedding in Singapore. She's also surprised to learn that Nick's family is extremely wealthy and he's considered one of the country's most eligible bachelors. Thrust into the spotlight, Rachel must now contend with jealous socialites, quirky relatives and something far, far worse -- Nick's disapproving mother.</p>
+                            <div class="property-meta-data d-flex align-items-end justify-content-between">
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Featured Property -->
+                <div class="col-12 col-md-6 col-xl-4">
+                    <div class="single-featured-property mb-50 wow fadeInUp" data-wow-delay="500ms">
+                        <!-- Property Thumbnail -->
+                        <div class="property-thumb">
+                            <img src="img/bg-img/05-small.jpg" alt="">
+                            <div class="tag">
+                            </div>
+                            <div class="list-price">
+                            </div>
+                        </div>
+                        <!-- Property Content -->
+                        <div class="property-content">
+                            <h5>Mamma Mia! Here We Go Again</h5>
+                            <p class="location"><img src="img/icons/location.png" alt="">2018 • Comedy, Romance, Music</p>
+                            <p>Donna, an independent hotelier in the Greek islands, is preparing for her daughter's wedding with the help of two old friends. Meanwhile Sophie, the spirited bride, has a plan. She secretly invites three men from her mother's past in hope of meeting her real father and having him escort her down the aisle on her big day.</p>
+                            <div class="property-meta-data d-flex align-items-end justify-content-between">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Featured Property -->
+                <div class="col-12 col-md-6 col-xl-4">
+                    <div class="single-featured-property mb-50 wow fadeInUp" data-wow-delay="600ms">
+                        <!-- Property Thumbnail -->
+                        <div class="property-thumb">
+                            <img src="img/bg-img/06-small.jpg" alt="">
+
+                            <div class="tag">
+                            </div>
+                            <div class="list-price">
+                            </div>
+                        </div>
+                        <!-- Property Content -->
+                        <div class="property-content">
+                            <h5>The Meg</h5>
+                            <p class="location"><img src="img/icons/location.png" alt="">2018 • Action, Thriller, Horror</p>
+                            <p>Previously thought to be extinct, a massive creature attacks a deep-sea submersible, leaving it disabled and trapping the crew at the bottom of the Pacific. With time running out, a visionary oceanographer recruits rescue diver Jonas Taylor to save the crew and the sea itself from an unimaginable threat -- a 75-foot-long prehistoric shark known as the Megalodon.</p>
+                            <div class="property-meta-data d-flex align-items-end justify-content-between">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Featured Properties Area End ##### -->
+
+    <!-- ##### Call To Action Area Start ##### -->
+    <section class="call-to-action-area bg-fixed bg-overlay-black" style="background-image: url(img/bg-img/cta.jpg)">
+        <div class="container h-100">
+            <div class="row align-items-center h-100">
+                <div class="col-12">
+                    <div class="cta-content text-center">
+                        <h2 class="wow fadeInUp" data-wow-delay="300ms"> The day you want to watch a movie </h2>
+                        <h6 class="wow fadeInUp" data-wow-delay="400ms">Movie recommendations based on your taste.</h6>
+                        <a href="#" class="btn south-btn mt-50 wow fadeInUp" data-wow-delay="500ms">Search</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Call To Action Area End ##### -->
+
+    <!-- ##### Testimonials Area Start ##### -->
+    <section class="south-testimonials-area section-padding-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading wow fadeInUp" data-wow-delay="250ms">
+                        <h2>Customer Testimonials</h2>
+                        <p>-</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="testimonials-slides owl-carousel wow fadeInUp" data-wow-delay="500ms">
+
+                        <!-- Single Testimonial Slide -->
+                        <div class="single-testimonial-slide text-center">
+                            <h5>Great Website</h5>
+                            <p>I have wanted this website forever. It is everything I have wanted. I messaged them about not having a movie and the next day BOOM it was there.</p>
+
+                            <div class="testimonial-author-info">
+                                <img src="img/bg-img/c1.png" alt="">
+                                <p>Joshua Lee, <span>Customer</span></p>
+                            </div>
+                        </div>
+
+                        <!-- Single Testimonial Slide -->
+                        <div class="single-testimonial-slide text-center">
+                            <h5>Love the service :)</h5>
+                            <p>Love the service. Need to update Netflix API though. Recommending me movies which are no longer on Steaming.</p>
+
+                            <div class="testimonial-author-info">
+                                <img src="img/bg-img/c2.jpg" alt="">
+                                <p>Hailey Smith, <span>Customer</span></p>
+                            </div>
+                        </div>
+
+                        <!-- Single Testimonial Slide -->
+                        <div class="single-testimonial-slide text-center">
+                            <h5>Awesome work!</h5>
+                            <p>Awesome work. really like the simplicity and effectiveness of your website.</p>
+
+                            <div class="testimonial-author-info">
+                                <img src="img/bg-img/c3.jpg" alt="">
+                                <p>Cam Mckee, <span>Customer</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Testimonials Area End ##### -->
+
+    <!-- ##### Editor Area Start ##### -->
+    <section class="south-editor-area d-flex align-items-center">
+        <!-- Editor Content -->
+        <div class="editor-content-area">
+            <!-- Section Heading -->
+            <div class="section-heading wow fadeInUp" data-wow-delay="250ms">
+                <img src="img/icons/prize.png" alt="">
+                <h2>BARBARA KOPPLE</h2>
+                <p>Manager</p>
+            </div>
+            <p class="wow fadeInUp" data-wow-delay="500ms">Ever met someone with a frighteningly similar taste? We discovered that this is often the best person to suggest something you might like. Your recommendations come from the collective souls of people who are oddly similar to you.</p>
+            <div class="address wow fadeInUp" data-wow-delay="750ms">
+                <h6><img src="img/icons/phone-call.png" alt=""> +64 21 027 87031</h6>
+                <h6><img src="img/icons/envelope.png" alt=""> movieday@gmail.com</h6>
+            </div>
+            <div class="signature mt-50 wow fadeInUp" data-wow-delay="1000ms">
+                <img src="img/core-img/signature.png" alt="">
+            </div>
+        </div>
+
+        <!-- Editor Thumbnail -->
+        <div class="editor-thumbnail">
+            <img src="img/bg-img/editor.jpg" alt="">
+        </div>
+    </section>
+    <!-- ##### Editor Area End ##### -->
+
+    <!-- ##### Footer Area Start ##### -->
+    <footer class="footer-area section-padding-100-0 bg-img gradient-background-overlay" style="background-image: url(img/bg-img/cta.jpg);">
+        <!-- Main Footer Area -->
+        <div class="main-footer-area">
+            <div class="container">
+                <div class="row">
+
+                    <!-- Single Footer Widget -->
+                    <div class="col-12 col-sm-6 col-xl-3">
+                        <div class="footer-widget-area mb-100">
+                            <!-- Widget Title -->
+                            <div class="widget-title">
+                                <h6>About Us</h6>
+                            </div>
+
+                            <img src="img/bg-img/logo.png" alt="">
+                            <div class="footer-logo my-4">
+                                <img src="img/core-img/logo.png" alt="">
+                            </div>
+                            <p>We always need help with development and investment.</p>
+                            <p>Contact us if you think you can help!</p>
+                        </div>
+                    </div>
+
+                    <!-- Single Footer Widget -->
+                    <div class="col-12 col-sm-6 col-xl-3">
+                        <div class="footer-widget-area mb-100">
+                            <!-- Widget Title -->
+                            <div class="widget-title">
+                                <h6>Hours</h6>
+                            </div>
+                            <!-- Office Hours -->
+                            <div class="weekly-office-hours">
+                                <ul>
+                                    <li class="d-flex align-items-center justify-content-between"><span>Monday - Friday</span> <span>09 AM - 19 PM</span></li>
+                                    <li class="d-flex align-items-center justify-content-between"><span>Saturday</span> <span>09 AM - 14 PM</span></li>
+                                    <li class="d-flex align-items-center justify-content-between"><span>Sunday</span> <span>Closed</span></li>
+                                </ul>
+                            </div>
+                            <!-- Address -->
+                            <div class="address">
+                                <h6><img src="img/icons/phone-call.png" alt=""> +64 21 027 87031</h6>
+                                <h6><img src="img/icons/envelope.png" alt=""> movieday@gmail.com</h6>
+                                <h6><img src="img/icons/location.png" alt=""> 139 Vivian Street, Te Aro, Wellington, NZ</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Footer Widget -->
+                    <div class="col-12 col-sm-6 col-xl-3">
+                        <div class="footer-widget-area mb-100">
+                            <!-- Widget Title -->
+                            <div class="widget-title">
+                                <h6>Useful Links</h6>
+                            </div>
+                            <!-- Nav -->
+                            <ul class="useful-links-nav d-flex align-items-center">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Explore</a></li>
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">Netflix</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Genres</a></li>
+                                <li><a href="#">Privacy</a></li>
+                                <li><a href="#">Attributes</a></li>
+                                <li><a href="#">Terms</a></li>
+                                <li><a href="#">Advanced</a></li>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Search</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Single Footer Widget -->
+                    <div class="col-12 col-sm-6 col-xl-3">
+                        <div class="footer-widget-area mb-100">
+                            <!-- Widget Title -->
+                            <div class="widget-title">
+                                <h6>Today's Movie</h6>
+                            </div>
+                            <!-- Featured Properties Slides -->
+                            <div class="featured-properties-slides owl-carousel">
+                                <!-- Single Slide -->
+                                <div class="single-featured-properties-slide">
+                                    <a href="#"><img src="img/bg-img/fea-product1.jpg" alt=""></a>
+                                </div>
+                                <!-- Single Slide -->
+                                <div class="single-featured-properties-slide">
+                                    <a href="#"><img src="img/bg-img/fea-product2.jpg" alt=""></a>
+                                </div>
+                                <!-- Single Slide -->
+                                <div class="single-featured-properties-slide">
+                                    <a href="#"><img src="img/bg-img/fea-product3.jpg" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Copywrite Text -->
+        <div class="copywrite-text d-flex align-items-center justify-content-center">
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+        </div>
+    </footer>
+    <!-- ##### Footer Area End ##### -->
+
+    <!-- jQuery (Necessary for All JavaScript Plugins) -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Plugins js -->
+    <script src="js/plugins.js"></script>
+    <script src="js/classy-nav.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+
+</body>
+
+</html>
